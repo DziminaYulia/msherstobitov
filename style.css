@@ -1,0 +1,80 @@
+body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+        header {
+            background: #222;
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+            font-size: 24px;
+        }
+
+        .brend{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap:4px;
+            background-color: hsl(0, 0%, 100%);
+            margin-top: 40px;
+        }
+        .brend a{
+              display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            font-size: 30px;
+            font-weight: 600;
+            text-decoration: none;
+            color: black;
+        }
+        .brend a:hover{
+            transform: scale(1.1);
+        }
+
+        .brend a p{
+            position: relative;
+            top: -70px;
+        }
+
+        .brend a img{
+            width: 200px;
+        }
+
+    
+        .catalog{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 40px;
+            padding: 20px;
+          justify-content: center;
+           
+        }
+        article {
+            background: rgb(255, 254, 254);
+            
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            width: 40%;
+        }
+
+        article:hover{
+            transform: scale(1.1);
+            box-shadow: 0px 0px 20px 4px rgba(0,0,0,0.75);
+        }
+        img {
+            max-width: 100%;
+            border-radius: 5px;
+        }
+        footer {
+            background: #222;
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+            margin-top: 20px;
+        }
